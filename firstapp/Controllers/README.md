@@ -25,18 +25,6 @@ This app demonstrates a complete authentication flow and data display using only
 - ✅ Auto Layout Constraints (NSLayoutConstraint)
 - ✅ Navigation Flow
 
-## 🏗️ Project Structure
-
-```
-firstapp/
-├── AppDelegate.swift
-├── SceneDelegate.swift          # Programmatic window & root view controller setup
-├── WelcomeVC.swift              # Welcome screen with buttons
-├── LoginVC.swift                # Login form with text fields
-├── SignupVC.swift               # Registration form with multiple text fields
-└── HomePage.swift               # Table view with custom cells
-```
-
 ## 📂 Screen Breakdown
 
 ### 1. Welcome Screen (`WelcomeVC.swift`)
@@ -192,38 +180,6 @@ self.window?.makeKeyAndVisible()
 - Prepared but commented out in `WelcomeVC`
 - Ready for logo or icon implementation
 
-## 📋 Requirements
-
-- iOS 13.0+
-- Xcode 12.0+
-- Swift 5.0+
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. **Open the project**
-   ```bash
-   cd firstapp
-   open firstapp.xcodeproj
-   ```
-
-3. **Build and run**
-   - Select a simulator or device
-   - Press `Cmd + R` to build and run
-
-## 📝 Code Style
-
-This project follows these conventions:
-- Optional properties for UI elements declared at class level
-- Private setup methods for each UI component
-- `@objc` annotations for button action methods
-- Optional binding with `if let` for safe unwrapping
-- Descriptive variable names (e.g., `HomeLbl`, `SignoutBtn`)
-
 ## 🎓 Learning Objectives
 
 This project teaches:
@@ -244,30 +200,3 @@ This project teaches:
 - **Secure Text Entry** - Password fields configured correctly
 - **Responsive Layout** - Adapts to different screen sizes
 - **Optional Safety** - Proper optional handling throughout
-
-## 🐛 Known Issues / Future Enhancements
-
-- `ForgotPasswordPageVC` referenced but not included in this documentation
-- Image view implementation ready but commented out
-- No actual authentication logic (UI only)
-- No form validation
-- Could benefit from a coordinator pattern for navigation
-
-## 📚 Additional Resources
-
-- [UIKit Documentation](https://developer.apple.com/documentation/uikit)
-- [Auto Layout Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/)
-- [Table View Programming Guide](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/TableView_iPhone/AboutTableViewsiPhone/AboutTableViewsiPhone.html)
-- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
-
-## 👨‍💻 Author
-
-Created by Surya Rayala on January 27, 2026
-
-## 📄 License
-
-This project is available for educational purposes.
-
----
-
-**Note:** This project emphasizes programmatic UI creation as a learning tool. In production apps, you may choose to use SwiftUI, Storyboards, or a combination of approaches based on your team's needs and preferences.
